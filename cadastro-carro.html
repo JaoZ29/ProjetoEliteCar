@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Clientes</title>
+    <title>Cadastro Carros</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/form-cliente.css">
@@ -15,27 +15,28 @@
     <header>
         <nav>
             <a href="lista-clientes.html">CLIENTES</a>
-            <a href="lista-carros.html">CARROS</a>
+            <a href="cadastro-carro.html">CARROS</a>
             <a href="lista-pedidos.html">PEDIDOS</a>
-        </nav>
+        </nav
     </header>
-    <h1>CADASTRO DE CLIENTE</h1>
+    <h1>CADASTRO DE CARRO</h1>
     <div class="container-formulario">
         <form action="">
-            <label for="nome">
-                Nome
+            <label for="marca">
                 <br>
-                <input type="text" name="input-nome-cliente" placeholder="Nome completo" required>
+                <input type="text" name="input-marca-carro" placeholder="Insira a marca do carro" required>
             </label>
-            <label for="cpf">
-                CPF
+            <label for="modelo">
                 <br>
-                <input type="number" name="input-cpf-cliente" placeholder="Informe o CPF" required>
+                <input type="text" name="input-modelo-carro" placeholder="Insira o modelo do carro" required>
             </label>
-            <label for="telefone">
-                Telefone
+            <label for="ano-fabricacao">
+               <br>
+                <input type="text" name="input-ano-fabricacao-carro" placeholder="Insira o ano de fabricação" required>
+            </label>
+            <label for="cor">
                 <br>
-                <input type="number" name="input-telefone-cliente" placeholder="Informe o Telefone" required>
+                <input type="text" name="input-cor-carro" placeholder="Insira a cor principal do carro" required>
             </label>
 
             <input type="button" value="CADASTRAR">
